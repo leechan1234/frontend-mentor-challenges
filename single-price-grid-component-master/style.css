@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    gap: 30px;
+}
+
+h2 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 400px;
+}
+
+.sub_title {
+    margin-top: 25px;
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    line-height: 25px;
+    color: hsl(218, 22%, 67%);
+}
+
+.item1 {
+    background-color: white;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottom__item {
+    width: 350px;
+    height: 300px;
+}
+
+.item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2BB3B1;
+}
+
+.wrapper2 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    gap: 20px;
+}
+
+h3 {
+    color: white;
+}
+
+.price__number {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.price__day {
+    opacity: 0.5;
+    color: white;
+}
+
+.price__description {
+    color: white;
+    opacity: 0.9;
+}
+
+.price {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #BFDF32;
+    border: none;
+    border-radius: 5px;
+    width: 270px;
+    height: 50px;
+    color: white;
+    margin-top: 20px;
+}
+
+.item3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4ABEBD;
+
+}
+
+.wrapper3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    width: 80%;
+    height: 80%;
+
+}
+
+.par {
+    color: white;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.last {
+    margin-top: 25px;
+}

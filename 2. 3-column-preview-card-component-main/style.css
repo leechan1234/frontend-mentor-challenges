@@ -4,86 +4,56 @@ html {
 
 body {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100%;
     background-color: lightgray;
 
-    @media (max-width: 767px) {
-        justify-content: column;
-    }
 }
 
-/* 공통적인 속성 */
 .box {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 280px;
     height: 370px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.box1 {
-    background-color: hsl(31, 77%, 52%);
-}
-
-.box2 {
-    background-color: hsl(184, 100%, 22%);
-}
-
-.box3 {
-    background-color: hsl(179, 100%, 13%);
+    
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-    width: 70%;
-    height: 90%;
+gap: 40px;
+
+    
+    width: 200px;
+    height: 300px;
+    
+   
+
+}
+img{
+    width: 80px;
+    height: 50px;
 }
 
-
-img {
-    width: 60px;
-    height: 40px;
+.box1 {
+    background-color: orange;
 }
 
-h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 35px;
-    font-family: 'Big Shoulders Display', cursive;
+.box2 {
+    background-color: aqua;
 }
 
-p {
-    font-size: 15px;
-    font-weight: 400;
-    font-family: 'Lexend Deca', sans-serif;
-    color: hsla(0, 0%, 100%, 0.75)
+.box3 {
+    background-color: aquamarine;
 }
-
 
 button {
-    width: 140px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
     border: none;
-    border-radius: 25px;
-    margin-top: 30px;
-    font-size: 15px;
-    font-family: 'Lexend Deca', sans-serif;
-}
-
-.box1 button {
-    color: hsl(31, 77%, 52%);
-}
-
-.box2 button {
-    color: hsl(184, 100%, 22%);
-}
-
-.box3 button {
-    color: hsl(184, 100%, 22%);
+    border-radius: 15px;
 }
