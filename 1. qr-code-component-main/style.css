@@ -6,52 +6,51 @@ html {
 
 body {
     height: 100%;
+    background-color: #D5E1EF;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D5E1EF;
+    font-size: 15px;
 }
 
-.box {
+.qr-code-box {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-    border-radius: 15px;
+    width: 315px;
+    height: 460px;
     background-color: white;
-    width: 300px;
-    height: 500px;
+    border-radius: 10px;
+
+
 
 }
-
-
 
 img {
-    width: 270px;
-    height: 270px;
+    width: 280px;
+    height: 280px;
     border-radius: 10px;
-    margin-top: 15px;
-   
-
-
 }
 
-h2,
-p {
+.wrapper {
+    width: 280px;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 23px;
     text-align: center;
-    
 }
 
-h2 {
-    font-size: 20px;
-    font-weight: bolder;
+.par1 {
     color: hsl(218, 44%, 22%);
-
+    font-weight: 700;
+    font-size: 20px;
 }
 
-p {
-    color: hsl(220, 15%, 55%);
-    font-size: 15px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+.par2 {
+    color: hsl(212, 45%, 89%);
 }
